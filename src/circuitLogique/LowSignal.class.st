@@ -5,11 +5,6 @@ Class {
 	#package : 'circuitLogique'
 }
 
-{ #category : 'as yet unclassified' }
-LowSignal >> Value [  
-    ^ 0
-]
-
 { #category : 'controlling' }
 LowSignal >> and: aSignal [  
          ^ self
@@ -29,4 +24,9 @@ LowSignal >> or: aSignal [
         ifTrue: [ HightSignal new ]     
         ifFalse: [  self ]
 
+]
+
+{ #category : 'as yet unclassified' }
+LowSignal >> value [  
+    ^ 0
 ]
