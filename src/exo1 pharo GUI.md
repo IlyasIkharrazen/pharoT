@@ -1,4 +1,4 @@
-'''Smaltalk
+```Smaltalk
 
 blueRectangle := BlElement new
 	geometry: BlRectangleGeometry  new;
@@ -50,6 +50,7 @@ space := BlSpace new.
         space root addChild: rectangle.
     ].
 ].
+```
 
 space show.
 
